@@ -94,7 +94,6 @@ process and used API
                 'weight': 2, 'fillOpacity': 0.5
             }
 
-        # m = folium.Map(location=[41.29061720879303,-72.9614442586898], zoom_start=12)
         # create layer from geojson
         stategeo = folium.GeoJson(ct_towns,
                                   name='Connecticut',
